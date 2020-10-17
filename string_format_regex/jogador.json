@@ -1,0 +1,28 @@
+[
+    {
+        "nome": "matheus",
+        "time": "cruzeiro",
+        "escalado": "True",
+        "energia": 100,
+        "mochila": ["corda", "flecha"],
+        "aeronave": [
+            {"tipo": "transporte", "habilidade": 80},
+            {"tipo": "ataque", "habilidade": 100},
+            {"tipo": "reconhecimento", "habilidade": 50}
+        ]
+    },
+
+    {
+        "nome": "shiryu",
+        "time": "cruzeiro",
+        "escalado": "True",
+        "energia": 100,
+        "mochila": ["escudo", "cosmo"],
+        "aeronave": [
+            {"tipo": "transporte", "habilidade": 100},
+            {"tipo": "ataque", "habilidade": 100},
+            {"tipo": "reconhecimento", "habilidade": 100}
+        ]
+    }
+
+]

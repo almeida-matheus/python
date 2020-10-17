@@ -37,8 +37,8 @@ for post in posts:
         })
     #transformar em arquivo json
     #indent: json organizado, ensure_ascii: tirar os espaços do json \u00f3
-    with open('posts.json','w') as json_file:
-        json.dump(all_post, json_file, indent=2, ensure_ascii=True)
+    with open('posts.json','w', encoding='utf8') as json_file:
+        json.dump(all_post, json_file, indent=4, ensure_ascii=False)
 
 '''
 #se tiver paginacao
